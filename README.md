@@ -5,9 +5,9 @@ The theme that we got was Sahayak Bot. We had to program an Autonomous Ground Ve
 Challenges in this theme inlcuded: 2D mapping, 3D mapping, Autonomous Navigation, Perception, Pick and Place.
 
 <img src="SB1.png" alt="SB"
-	title="Sahayak Bot" width="150" height="100" />
+	title="Sahayak Bot" width="300" height="400" />
 
-![SB1](https://user-images.githubusercontent.com/52562790/122603360-d65a2780-d091-11eb-8ff2-48432c7481fe.png)
+<!-- ![SB1](https://user-images.githubusercontent.com/52562790/122603360-d65a2780-d091-11eb-8ff2-48432c7481fe.png) -->
 
 Our performance:
 
