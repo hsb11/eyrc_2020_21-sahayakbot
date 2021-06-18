@@ -8,6 +8,9 @@ Challenges in this theme inlcuded: 2D mapping, 3D mapping, Autonomous Navigation
 <img src="SB1.png" alt="SB"
 	title="Sahayak Bot" width="200" height="250" />
 </p>
+<p align = "center">
+Fig. - Sahayak Bot
+</p>
 
 <!-- ![SB1](https://user-images.githubusercontent.com/52562790/122603360-d65a2780-d091-11eb-8ff2-48432c7481fe.png) -->
 
