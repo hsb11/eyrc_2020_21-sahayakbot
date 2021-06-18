@@ -1,9 +1,10 @@
 ## Theme - Sahayak Bot (Assistance Robot)
-Eyantra's repo [link](https://github.com/vishalgpt579/sahayak_bot)
 
 The theme that we got was Sahayak Bot. We had to program an Autonomous Ground Vehicle (AGV) to make it capable of autonomously traversing an indoor environment to assist moving objects from one place to another. The scenario was that objects were being moved in e-Yantra’s lab and they were short of manpower so Sahayak bot was used to help move the boxes from one place to another.
 
 Challenges in this theme inlcuded: 2D mapping, 3D mapping, Autonomous Navigation, Perception, Pick and Place.
+
+![Optional Text](../master/SB1.png)
 
 Our performance:
 
@@ -16,3 +17,5 @@ Our performance:
 | <b>Task 4</b> | To perform Perception                                                                                                                                                                                                                                                                                                                                                       |                       100/100                       |                   70                  |
 | <b>Task 5</b> | To collaborate learnings of all the previous tasks ie.<br />- Navigate to the correct location to pick up objects  using the Navigation pipeline<br />- Detecting objects using perception pipelines<br />- Grasping objects with MoveIt planner<br />- Navigate again to your destination using the Navigation pipeline<br />- Placing the objects in the correct drop box |                      31.42/100                      |                   45                  |
 | <b>Task 6</b> | Final task Similar to task 5 with added constraints like 48 hours time-limit, original and bonus configuration                                                                                                                                                                                                                                                              | Original 625.8<br />Bonus 151.67 <br />Code 100/100 |                   41                  |
+
+Eyantra's original repo [link](https://github.com/vishalgpt579/sahayak_bot)
