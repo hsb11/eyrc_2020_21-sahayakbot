@@ -14,7 +14,7 @@ Fig. - Sahayak Bot
 
 <!-- ![SB1](https://user-images.githubusercontent.com/52562790/122603360-d65a2780-d091-11eb-8ff2-48432c7481fe.png) -->
 
-Our performance:
+Our team's performance:
 
 |               | Objectives                                                                                                                                                                                                                                                                                                                                                                  | Score                                             | ~ No. of teams who completed the task |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|:-------------------------------------:|
@@ -28,3 +28,12 @@ Our performance:
 | <b>Result</b> | We couldn’t get shortlisted for Finals of the competition. e-Yantra has not released overall rankings but we calculate that we are in top 25. Top 7 teams were selected for the Finals. The competition was a good learning experience.                                                                                                                                     |                                                   |                                       |
 
 Eyantra's original repo [link](https://github.com/vishalgpt579/sahayak_bot)
+
+This repository contains the ROS packages we built and used to complete the tasks, along with the original packages.
+
+## Prerequisites
+- ROS
+- Gazebo
+- MoveIt
+- FindObject2d
+- Navigation packages(Gmaapping, amcl, map server, tf2)
