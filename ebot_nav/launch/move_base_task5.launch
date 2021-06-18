@@ -1,0 +1,11 @@
+<launch>
+
+<!-- MoveBaseSeq node launch and Points Sequence ROS Parameters Loading -->
+
+    <!--Run move_base_seqs node-->
+        <node pkg="ebot_nav" type="move_base_task5.py" name="move_base_task5" output="screen">
+        
+
+        </node>
+
+</launch>

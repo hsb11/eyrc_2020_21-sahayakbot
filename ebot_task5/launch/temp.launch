@@ -1,0 +1,14 @@
+<launch>
+	<include file="$(find ebot_description)/launch/task5.launch" />
+	<node pkg="ebot_nav" type="move_base_task5.py" name="move_base_task5" output="screen"/>
+	<include file="$(find ebot_perc)/launch/perception.launch" />
+	<include file="$(find ebot_perc)/launch/ebot_perc_moveit.launch" />
+
+	<arg name="node_start_delay_moveit" default="30.0" />
+	<node pkg="ebot_perc" type="moveit_perc.py" name="moveit_perc" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay_moveit); $0 $@' "/>
+
+	<!-- <arg name="node_start_delay_main" default="40.0" />
+	<node pkg="ebot_task5" type="main.py" name="main" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay_main); $0 $@' "/> -->
+
+
+</launch>

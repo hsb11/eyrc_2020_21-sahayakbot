@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find ebot_nav)/launch/nav.launch"/>
+
+</launch>

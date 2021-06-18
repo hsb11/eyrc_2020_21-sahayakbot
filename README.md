@@ -27,13 +27,13 @@ Our team's performance:
 | <b>Task 6</b><br />[Original](https://youtu.be/9-B2YUj1zHM)<br />[Bonus](https://youtu.be/cYznWN5Cslk) | Final task Similar to task 5 with added constraints like 48 hours time-limit, original and bonus configuration                                                                                                                                                                                                                                                              | Original 625.8<br/>Bonus 151.67 <br/>Code 100/100 |                   41                  |
 | <b>Result</b> | We couldn’t get shortlisted for Finals of the competition. e-Yantra has not released overall rankings but we calculate that we are in top 25. Top 7 teams were selected for the Finals. The competition was a good learning experience.                                                                                                                                     |                                                   |                                       |
 
-Eyantra's original repo [link](https://github.com/vishalgpt579/sahayak_bot)
+Eyantra's original [repo](https://github.com/vishalgpt579/sahayak_bot) which contains the original packages.
 
-This repository contains the ROS packages we built and used to complete the tasks, along with the original packages.
+This repository contains the additional ROS packages we built and used to complete the tasks.
 
 ## Prerequisites
 - ROS
 - Gazebo
 - MoveIt
 - FindObject2d
-- Navigation packages(Gmaapping, amcl, map server, tf2)
+- Navigation packages(Gmapping, amcl, map server, tf2)

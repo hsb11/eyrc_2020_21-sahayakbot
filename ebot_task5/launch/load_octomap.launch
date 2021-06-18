@@ -1,0 +1,11 @@
+<launch>
+
+    <arg name="path" default="/home/harmanjeet/catkin_ws/src/sahayak_bot/ebot_task5/octomaps/task4octomap.bt"/>
+
+    <node pkg="octomap_server" type="octomap_server_node" name="octomap_talker" output="screen" args="$(arg path)">
+    </node>
+
+    <node pkg="ebot_task5" type="octoload.py" name="moveit_octomap_handler" output="screen">
+    </node>
+
+</launch>

@@ -1,0 +1,14 @@
+<launch>
+
+	<!-- <arg name="node_start_delay_moveit" default="90.0" /> -->
+	<!-- <node pkg="ebot_perc" type="moveit_perc.py" name="moveit_perc" output="screen" /> -->
+
+	<!-- <arg name="node_start_delay_main" default="110.0" /> -->
+	<node pkg="ebot_task5" type="main2_task6.py" name="main2_task6" output="screen"/>
+
+	<!-- <arg name="node_start_delay" default="20.0" /> -->
+	<!-- <node pkg="ebot_task5" type="main.py" name="main" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/> -->
+	<node pkg="ebot_task5" type="mainr.py" name="mainr" output="screen"/>
+	<node pkg="ebot_task5" type="img_dis.py" name="img_dis" output="screen"/>
+
+</launch>
